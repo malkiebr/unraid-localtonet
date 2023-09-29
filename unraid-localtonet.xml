@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Container version="12">
+  <Name>localtonet</Name>
+  <Repository>localtonet/localtonet</Repository>
+  <Registry>https://hub.docker.com/r/localtonet/localtonet/tags</Registry>
+  <Privileged>false</Privileged>
+  <Project>https://github.com/engineseller/localtonet</Project>
+  <Overview>Localtonet which is a reverse proxy that enables you to expose your localhost to the internet.</Overview>
+  <Category>Network:Proxy Network:Other Status:Stable</Category>
+  <TemplateURL>https://raw.githubusercontent.com/jlesage/docker-templates/master/jlesage/firefox.xml</TemplateURL>
+  <Icon>https://localtonet.com/homepage/logo.png</Icon>
+  <PostArgs>authtoken [INSERT_AUTHTOKEN_HERE]</PostArgs>
+  <Requires>Insert your authtoken on the placeholder in the "Post Arguments" field below.&#xD;
+If you don't know your authtoken, login on https://localtonet.com to get one.</Requires>
+</Container>
