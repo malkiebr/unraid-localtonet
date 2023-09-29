@@ -4,6 +4,7 @@
   <Repository>localtonet/localtonet</Repository>
   <Registry>https://hub.docker.com/r/localtonet/localtonet/tags</Registry>
   <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/145772-support-thread-for-unraid-localtonet-community-app/</Support>
   <Project>https://github.com/engineseller/localtonet</Project>
   <Overview>Localtonet which is a reverse proxy that enables you to expose your localhost to the internet.</Overview>
   <Category>Network:Proxy Network:Other Status:Stable</Category>
